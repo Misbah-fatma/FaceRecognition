@@ -14,7 +14,7 @@ import Navbar from "./Navbar";
 
 const FaceRecognition = () => {
   const videoRef = useRef(null);
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = poiu("");
 
   const openCamera = () => {
     navigator.mediaDevices
